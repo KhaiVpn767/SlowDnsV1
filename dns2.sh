@@ -16,9 +16,11 @@ rm nsdomain
 #input nameserver manual to cloudflare
 clear
 echo "----------------------------------------";
-echo "---------=[ DNSTT NameServer ]=---------";
+echo "----------[ Script-By-khaVPN ]----------";
 echo "----------------------------------------";
-read -rp "Masukkan Nameserver: " -e sub
+echo "--------=[ SlowDNS-NameServer ]=--------";
+echo "----------------------------------------";
+read -rp "𝐌𝐚𝐬𝐮𝐤𝐤𝐚𝐧 𝐍𝐚𝐦𝐞𝐬𝐞𝐫𝐯𝐞𝐫: " -e sub
 SUB_DOMAIN=${sub}
 NS_DOMAIN=${SUB_DOMAIN}
 echo $NS_DOMAIN > /root/nsdomain
