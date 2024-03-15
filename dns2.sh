@@ -20,7 +20,7 @@ echo -e "\e[33m----------[ Script-By-khaVPN ]----------\033[0m";
 echo -e "\e[33m----------------------------------------\033[0m";
 echo -e "\e[33m--------=[ SlowDNS-NameServer ]=--------\033[0m";
 echo -e "\e[33m----------------------------------------\033[0m";
-read -rp "𝐌𝐚𝐬𝐮𝐤𝐤𝐚𝐧 𝐍𝐚𝐦𝐞𝐬𝐞𝐫𝐯𝐞𝐫:"-e sub
+read -rp "Masukkan NameSerVer:" -e sub
 SUB_DOMAIN=${sub}
 NS_DOMAIN=${SUB_DOMAIN}
 echo $NS_DOMAIN > /root/nsdomain
