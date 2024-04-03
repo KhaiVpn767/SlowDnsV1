@@ -16,7 +16,7 @@ rm nsdomain
 #input nameserver manual to cloudflare
 clear
 echo -e "\e[33m----------------------------------------\033[0m";
-echo -e "\e[33m----------[ Script-By-khaVPN ]----------\033[0m";
+echo -e "\e[33m--------=[ Script-By-khaiVPN. ]=---------\033[0m";
 echo -e "\e[33m----------------------------------------\033[0m";
 echo -e "\e[33m--------=[ SlowDNS-NameServer ]=--------\033[0m";
 echo -e "\e[33m----------------------------------------\033[0m";
